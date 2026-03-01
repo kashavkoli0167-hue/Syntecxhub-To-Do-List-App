@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FocusList</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Icon library -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!--container -->
+  <div class="container">
+    <!-- Header-->
+    <div class="header">
+      <h1>FocusList</h1>
+      <button id="themeBtn">
+        <i class="ri-moon-fill"></i>
+      </button>
+    </div>
+
+    <!-- Input-->
+    <div class="input-section">
+      <input type="text" id="taskInput" placeholder="what needs to be done?" autocomplete="off" />
+      <button id="addBtn">Add Task</button>
+    </div>
+
+    <!-- Filters-->
+    <div class="filters">
+      <button class="filter active" data-type="all">All</button>
+      <button class="filter" data-type="completed">Completed</button>
+      <button class="filter" data-type="pending">Pending</button>
+    </div>
+
+    <!-- Task list-->
+    <ul id="taskList"></ul>
+
+    <!-- Bottom-->
+    <div class="bottom">
+      <div class="stats">
+        <span>Total:<b id="totalCount">0</b></span>
+        <span>Done:<b id="completedCount">0</b></span>
+      </div>
+      <button id="clearAll">Clear All</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
