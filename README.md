@@ -22,4 +22,7 @@ It helps users manage daily tasks with an interactive UI and persistent storage.
 
 ##Output
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/2b27ceaf-020c-49b7-868d-acdf89ad419e" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/3f11b219-6abe-475b-b1c9-e4de8a273169" />
 
